@@ -45,7 +45,8 @@ However, if I were to utilize Advanced Operators in my query, and instead search
 
 &nbsp;
 
-<center><img src="{{site.baseurl}}/assets/images/cnn-gummy-bear-dork.jpg" style="width:750px;height:150px;"></center>
+<center><img src="{{site.baseurl}}/assets/images/cnn-gummy-bear-dork.jpg" style="max-width:100%;max-height:100%;"></center>
+
 
 &nbsp;
 
