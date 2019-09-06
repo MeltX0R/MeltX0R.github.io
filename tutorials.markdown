@@ -1,5 +1,5 @@
 ---
-layout: PostsByCategory_exercises
-title: Exercises
-permalink: /exercises/
+layout: PostsByCategory_tutorial
+title: Tutorials
+permalink: /tutorials/
 ---

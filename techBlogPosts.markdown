@@ -1,5 +1,5 @@
 ---
-layout: PostsByCategory_exercises
-title: Exercises
-permalink: /exercises/
+layout: PostsByCategory_techBlog
+title: Technical Blog Posts
+permalink: /posts/
 ---

@@ -14,10 +14,10 @@ layout: default
 &nbsp;
 
 ## **Technical Blog posts**
-Please click *[here](/TechnicalBlogPosts/)* to review my technical blog posts.
+Please click *[here](/posts/)* to review my technical blog posts.
 
 ## **Exercises**
-Please click *[here](/Exercises)* to review PCAP analysis exercises
+Please click *[here](/exercises)* to review PCAP analysis exercises
 
 ## **Tutorials**
 Please click *[here](/tutorials)* to review tutorials on various tools, analytical methodologies, and more.
@@ -26,7 +26,7 @@ Please click *[here](/tutorials)* to review tutorials on various tools, analytic
 Please click *[here](/resources)* to review a list of tools and resources that I utilize to perform open source research, malware analysis, threat intelligence, as well as various blogs and news outlets that I follow.
 
 ## **About**
-Please click *[here](/About/)* to learn more about me, why I made this blog, and how to contact me.
+Please click *[here](/about/)* to learn more about me, why I made this blog, and how to contact me.
 
 &nbsp;
 &nbsp;
