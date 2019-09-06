@@ -6,8 +6,6 @@ layout: default
 
 ---
 
-<center><img src="{{site.baseurl}}/assets/images/logo.png"></center>
-
 &nbsp;
 &nbsp;
 
