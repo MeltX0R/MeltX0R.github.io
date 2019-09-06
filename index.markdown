@@ -10,8 +10,6 @@ layout: default
 
 &nbsp;
 &nbsp;
-&nbsp;
-&nbsp;
 
 ## **Technical Blog posts**
 Please click *[here](/posts/)* to review my technical blog posts.
@@ -32,5 +30,18 @@ Please click *[here](/about/)* to learn more about me, why I made this blog, and
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+
+<span style="font-size:small;"> subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></span>
