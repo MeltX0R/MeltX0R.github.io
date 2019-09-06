@@ -37,7 +37,7 @@ The average user is familiar with Google - after all it is the most widely used 
 
 &nbsp;
 
-<center><img src="{{site.baseurl}}/assets/images/cnn-gummy-bear-search.jpg" style="width:750px;height:150px;"></center>
+<center><img src="{{site.baseurl}}/assets/images/cnn-gummy-bear-search.jpg" style="width:750px;height:150px;max-width:100%;max-height:100%;"></center>
 
 &nbsp;
 
