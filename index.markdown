@@ -6,6 +6,7 @@ layout: default
 
 ---
 
+<center><img src="{{site.baseurl}}/assets/images/logo.png"></center>
 
 
 # **Technical Blog posts**
