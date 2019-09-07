@@ -23,7 +23,7 @@ Researching for activity related to ArtraDownloader on App.Any.Run reveals numer
 
 &nbsp;
 
-<center><img src="{{site.baseurl}}/assets/images/ArtraDownloader_AnyRun_Search.png" style="max-width:100%;max-height:100%;"></center>
+<center><img src="{{site.baseurl}}/assets/images/ArtraDownloader_AnyRun_Search.PNG" style="max-width:100%;max-height:100%;"></center>
 <span style="font-size:small;"> Shown above: App.Any.Run samples of ArtraDownloader</span>
 
 &nbsp;
@@ -49,8 +49,8 @@ The Command & Control communications are typical for what we would see from Artr
 
 &nbsp;
 
-<center><img src="{{site.baseurl}}/assets/images/ArtraDownloader_PCAP.PNG" style="max-width:100%;max-height:100%;"></center>
-<center><img src="{{site.baseurl}}/assets/images/ArtraDownloaderC2.PNG" style="max-width:100%;max-height:100%;"></center>
+<center><img src="{{site.baseurl}}/assets/images/ArtraDownloader_PCAP.png" style="max-width:100%;max-height:100%;"></center>
+<center><img src="{{site.baseurl}}/assets/images/ArtraDownloaderC2.png" style="max-width:100%;max-height:100%;"></center>
 <span style="font-size:small;"> Shown above: Packet capture of ArtraDownloader C2</span>
 &nbsp;
 
