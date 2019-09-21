@@ -87,7 +87,7 @@ I then pivoted into VirusTotal's relational graphing utility to see if I could g
 
 
 
-At this time, I was unable to obtain evidence of target attribution - however in the past Emissary Panda APT has been observed targeting Asia, Middle East, US, and UK based organizations and infrastructure. What struck me as most interesting from my analysis of this sample was how the Emissary Panda APT group was able to obtain a valid certificate to sign their Remote Access Trojan binary, which leads to further questions - was this group able to compromise the Chinese based software company and steal their certificate(s) without them being aware, or are there possible insider threats lurking within? Regardless, it is an interesting sample and displays that Emissary Panda is still active.
+At this time, I was unable to obtain evidence of target attribution - however in the past Emissary Panda APT has been observed targeting Asia, Middle East, US, and UK based organizations and infrastructure. What struck me as most interesting from my analysis of this sample was how the Emissary Panda APT group was able to obtain a valid certificate to sign their Remote Access Trojan binary, which sparks the question - was this group able to compromise the Chinese based software company and steal their certificate(s), or are there possible insider threats lurking within? Regardless, it is an interesting sample and displays that Emissary Panda is still active.
 
 
 &nbsp;
