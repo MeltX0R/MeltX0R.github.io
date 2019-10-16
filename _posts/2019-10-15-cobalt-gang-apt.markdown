@@ -182,7 +182,7 @@ At this point in my investigation, I was starting to think that these domains we
 
 
 
-I then performed a search on PassiveTotal for the initial C2 domain *(hunvenbinusa.info)* and found that it shared an IP address with two other domains - *bueatyslim.site* and *ispot-world.com*. While I haven't found evidence indicating *ispot-world.com* is related to this campaign, *Censys.io* records reveal that *bueatyslim.site* utilizes a LetsEncrypt certificate that contains a SANs (Subject Alternative Name) of *"unvenbinusa.info"* - therefore, I believe *bueatyslim.site* to be an additional C2 domain utilized in this campaign.
+I then performed a search on PassiveTotal for the initial C2 domain *(hunvenbinusa.info)* and found that it shared an IP address with two other domains - *bueatyslim.site* and *ispot-world.com*. While I haven't found evidence indicating *ispot-world.com* is related to this campaign, *Censys.io* records reveal that *bueatyslim.site* utilizes a LetsEncrypt certificate that contains a SANs (Subject Alternative Name) of *"hunvenbinusa.info"* - therefore, I believe *bueatyslim.site* to be an additional C2 domain utilized in this campaign.
 
 
 &nbsp;
@@ -200,7 +200,7 @@ At this time, I was unable to obtain evidence of target attribution - however th
 | 8e8e7b25a0df0dfed26d726cb1c01567 | MD5| PFD-19-010.doc - Visa themed .Doc lure containing embedded macro leading to download of CobInt/COOLPANTS malware |
 | www.huanchacosurf.inti.co.uk/vendor/bin/avatar.hlpv | URL | URL serving CobInt/COOLPANTS malware |
 | 6ef835a8ac1cc70d4b478c7c45efa5db| MD5 | Colors.exe - CobInt/COOLPANTS malware hash |
-| unvenbinusa.info | Domain | CobInt/COOLPANTS Command & Control server |
+| hunvenbinusa.info | Domain | CobInt/COOLPANTS Command & Control server |
 | bueatyslim.site | Domain | CobInt/COOLPANTS Command & Control server |
 
 
