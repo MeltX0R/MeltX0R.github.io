@@ -11,7 +11,7 @@ author: MELTX0R
 
 ## Summary
 
-[APT28](https://attack.mitre.org/groups/G0007/) (also commonly known as FancyBear, Sednit, Sofacy, STRONTIUM, and more) is a threat group that has been attributed to Russia's Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. The group has been regarded as being active since at least 2004, and is espionage motivated. It's targets have included the private sector, military, and governments across the world. In this post, I will review a campaign that I believe to have been conducted by APT28.
+[APT28](https://attack.mitre.org/groups/G0007/) (also commonly known as FancyBear, STRONTIUM, Sednit, Sofacy, and more) is a threat group that has been attributed to Russia's Main Intelligence Directorate of the Russian General Staff by a July 2018 U.S. Department of Justice indictment. The group has been regarded as being active since at least 2004, and is espionage motivated. It's targets have included the private sector, military, and governments across the world. In this post, I will review a campaign that I believe to have been conducted by APT28.
 
 &nbsp;
 
