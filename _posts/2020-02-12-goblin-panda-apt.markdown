@@ -80,7 +80,7 @@ Although I was unable to obtain additional C2 communications, the activity obser
 | 103.253.25.15 | IP Address | IP Address hosting Newcore RAT Command & Control server "baclieuvn.com" |
 | /link?url=maOVmKGmMDU1&enpl=OXco&encd=XARIZTE= | URI | Newcore RAT Command & Control URI Pattern|
 | /link?url=maOVmKGmMDU1&enpl=JWAsBQ==&encd=XARIZTE=| URI | Newcore RAT Command & Control URI Pattern|
-| e9ba8cc1119dc4a972d0d363edcc0101 | MD5 | Bao cao su kien Dong Tam (1).doc - suspected Goblin Panda dropper|
+| e9ba8cc1119dc4a972d0d363edcc0101 | MD5 | Bao cao su kien Dong Tam.doc - suspected Goblin Panda dropper|
 | 42c1a3a74cec2dc4a1c1a7a10d9d14e4 | MD5 | QcLite.dll |
 | 6d1876c07d176185dc61310b9aa510fe | MD5 | stdole.tlb |
 
