@@ -37,7 +37,7 @@ Upon opening the document, *CVE-2017-11882* is silently executed in the backgrou
 
 
 <center><img src="{{site.baseurl}}/assets/images/GOBLINPANDA_APT_LURE.png" style="max-width:100%;max-height:100%;"></center>
-<span style="font-size:small;"> Shown above: Suspected GoblinPanda APT Lure "Bao Cao Su Kien Dong Tam.doc"</span>
+<span style="font-size:small;"> Shown above: Suspected Goblin Panda APT Lure "Bao Cao Su Kien Dong Tam.doc"</span>
 
 &nbsp;
 
