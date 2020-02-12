@@ -41,9 +41,9 @@ Upon opening the document, *CVE-2017-11882* is silently executed in the backgrou
 
 &nbsp;
 
-Following this exploitation, three files are dropped to the user's local temp directory - *QcConsole.exe*, *QcLite.dll*, and *stdole.tlb*. While *QcConsole.exe* appears to be a valid and signed file belonging to *McAfee, Inc.* the other two dropped files (*QcLite.dll* and *stdole.tlb*) have less than benevolent intentions.
+Following exploitation, an embedded object "wd32PrvSE.wmf" is dropped to the user's local temp directory, and subsequently executed. Wd32PrvSE.wmf then drops three files to the user's local temp directory - *QcConsole.exe*, *QcLite.dll*, and *stdole.tlb*. While *QcConsole.exe* appears to be a valid and signed file belonging to *McAfee, Inc.* the other two dropped files (*QcLite.dll* and *stdole.tlb*) have less than benevolent intentions.
 
-*It should be noted that, at the time of this writing, the document, QcLite.dll, and stdole.tlb have very low or nonexistent detection rates of only 15/58 (document), 3/68 (DLL), and 0/56 (TLB) on VirusTotal, respectively.*
+*It should be noted that, at the time of this writing, the document, wd32PrvSE.wmf, QcLite.dll, and stdole.tlb have very low or nonexistent detection rates of only 15/58 (document), 0/56 (WMF), 3/68 (DLL), and 0/56 (TLB) on VirusTotal, respectively.*
 
 *QcConsole.exe* is then executed, and loads *QcLite.dll*. *QcLite.dll* will then establish persistence via an autorun registry key named *"Windows HD Audio Manager"*, drop a file titled *"desktop.ini"* to the *C:\ProgramData\\* directory containing obfuscated data, and load the contents of *stdole.tlb* to memory, and decrypt it, resulting in executable data.
 
@@ -83,6 +83,7 @@ Although I was unable to obtain additional C2 communications, the activity obser
 | e9ba8cc1119dc4a972d0d363edcc0101 | MD5 | Bao cao su kien Dong Tam.doc - suspected Goblin Panda dropper|
 | 42c1a3a74cec2dc4a1c1a7a10d9d14e4 | MD5 | QcLite.dll |
 | 6d1876c07d176185dc61310b9aa510fe | MD5 | stdole.tlb |
+| 7edeb624f2fef843ed26f24f3dd01a3f | MD5 | wd32PrvSE.wmf |
 
 
 
