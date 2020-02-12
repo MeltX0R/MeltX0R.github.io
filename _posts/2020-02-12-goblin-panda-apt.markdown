@@ -18,7 +18,7 @@ Goblin Panda (also known as Hellsing, Cycledek, and likely other names due to no
 ## Analysis
 
 
-While reviewing suspected dropper files, I came across an interesting document titled *"Bao Cao Su Kien Dong Tam.doc"*, which translates to *"Report the Dong Tam event"* in Vietnamese. This document was created on 01-10-2020 at 08:31:00, and purported to contain information about a recent controversy regarding land disputes between the Vietnamese government and the locals of Dong Tam (a rural commune located in Hanoi, Vietnam). While this is not the first time tensions were high between Dong Tam locals and the Vietnamese government, the timing of the most recent events and the document creation date is quite suspect, with the most recent dispute occurring on 01-09-2020 - the day prior to the .doc creation.
+While reviewing suspected dropper files, I came across an interesting document titled *"Bao Cao Su Kien Dong Tam.doc"*, which translates to *"Report the Dong Tam event"* in Vietnamese. This document was created on 01-10-2020 at 08:31:00, and purported to contain information about a recent controversy regarding land disputes between the Vietnamese government and the locals of Dong Tam (a rural commune located in Hanoi, Vietnam). While this is not the first time tensions were high between Dong Tam locals and the Vietnamese government, the timing of the most recent events and the document creation date is quite suspect, with the most recent dispute occurring on 01-09-2020 - the day prior to the document creation.
 
 &nbsp;
 
@@ -43,7 +43,7 @@ Upon opening the document, *CVE-2017-11882* is silently executed in the backgrou
 
 Following this exploitation, three files are dropped to the user's local temp directory - *QcConsole.exe*, *QcLite.dll*, and *stdole.tlb*. While *QcConsole.exe* appears to be a valid and signed file belonging to *McAfee, Inc.* the other two dropped files (*QcLite.dll* and *stdole.tlb*) have less than benevolent intentions.
 
-*It should be noted that, at the time of this writing, the document, QcLite.dll, and stdole.tlb have very low or nonexistent detection rates of only 15/58 (Doc), 3/68 (DLL), and 0/56 (TLB) on VirusTotal, respectively.*
+*It should be noted that, at the time of this writing, the document, QcLite.dll, and stdole.tlb have very low or nonexistent detection rates of only 15/58 (document), 3/68 (DLL), and 0/56 (TLB) on VirusTotal, respectively.*
 
 *QcConsole.exe* is then executed, and loads *QcLite.dll*. *QcLite.dll* will then establish persistence via an autorun registry key named *"Windows HD Audio Manager"*, drop a file titled *"desktop.ini"* to the *C:\ProgramData\\* directory containing obfuscated data, and load the contents of *stdole.tlb* to memory, and decrypt it, resulting in executable data.
 
